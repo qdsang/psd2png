@@ -38,3 +38,10 @@ fs.readFile('./psd.psd', function (err, buffer) {
 
 
 ```
+
+Stats
+-----
+
+[![NPM](https://nodei.co/npm/psd2png.png?downloads=true&stars=true)](https://nodei.co/npm/psd2png/)
+[![NPM](https://nodei.co/npm-dl/psd2png.png)](https://nodei.co/npm/psd2png/)
+
