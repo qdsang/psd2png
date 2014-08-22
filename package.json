@@ -1,0 +1,33 @@
+{
+  "name": "psd2png",
+  "description": "Image convertor, PSD to PNG, for node.js",
+  "version": "0.0.3",
+  "author": {
+    "name": "qdsang",
+    "email": "qdsang@gmail.com"
+  },
+  "homepage": "https://github.com/qdsang/psd2png",
+  "keywords": [
+    "png",
+    "psd",
+    "convertor",
+    "image"
+  ],
+  "bin": {
+    "psd2png": "bin/psd2png.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qdsang/psd2png.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "psd": "1.0.2",
+    "zlibjs": "0.2.0"
+  }
+}
