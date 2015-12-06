@@ -1,7 +1,7 @@
 {
   "name": "psd2png",
   "description": "Image convertor, PSD to PNG, for node.js",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "author": {
     "name": "qdsang",
     "email": "qdsang@gmail.com"
@@ -27,7 +27,7 @@
   "scripts": {
   },
   "dependencies": {
-    "psd": "1.0.2",
+    "psd": "3.1.0",
     "zlibjs": "0.2.0"
   }
 }

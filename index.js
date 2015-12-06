@@ -10,7 +10,7 @@ function psd2png(buffer) {
     
     psd.parse();
 
-    var png = psd.image.toPng()._result;
+    var png = psd.image.toPng();
 
     var pngjs_require = './node_modules/psd/node_modules/pngjs/lib/';
     var constants = require(pngjs_require + 'constants');
