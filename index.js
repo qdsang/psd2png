@@ -2,7 +2,7 @@
 'use strict';
 
 var PSD = require('psd');
-
+var fs = require('fs');
 function psd2png(buffer) {
 
     //var psd = PSD.fromFile(file.realpath);
@@ -12,10 +12,11 @@ function psd2png(buffer) {
 
     var png = psd.image.toPng();
 
-    var pngjs_require = './node_modules/psd/node_modules/pngjs/lib/';
+    var pngjs_require = './';
+    //var pngjs_require = './node_modules/psd/node_modules/pngjs/lib/';
     var constants = require(pngjs_require + 'constants');
     var Filter = require(pngjs_require + 'filter');
-    var Zlib = require('./node_modules/zlibjs/bin/node-zlib.js');
+    var Zlib = require('./node-zlib.js');
     var packer = png._packer;
 
     packer.pack2 = function(data, width, height) {
