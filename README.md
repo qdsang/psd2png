@@ -1,4 +1,4 @@
-psd2png
+psd2pngl
 ==================
 
 Image convertor, PSD to PNG, for node.js
