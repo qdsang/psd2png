@@ -22,4 +22,17 @@ fs.readFile('./psd.psd', function (err, buffer) {
     fs.writeFileSync('./image.png', pngbuffer);
 
 });
+```
+
+## test
+
+```
+node bin/psd2png.js ./test/test.psd
+```
+
+
+## thanks
+
+@leo94rug
+
 
