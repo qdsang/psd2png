@@ -1,53 +1,4 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "psd2png@^0.1.0",
-        "scope": null,
-        "escapedName": "psd2png",
-        "name": "psd2png",
-        "rawSpec": "^0.1.0",
-        "spec": ">=0.1.0 <0.2.0",
-        "type": "range"
-      },
-      "C:\\Users\\leonardor\\Desktop\\thumb - Copia"
-    ]
-  ],
-  "_from": "psd2png@>=0.1.0 <0.2.0",
-  "_id": "psd2png@0.1.0",
-  "_inCache": true,
-  "_location": "/psd2png",
-  "_npmUser": {
-    "name": "qdsang",
-    "email": "qdsang@gmail.com"
-  },
-  "_npmVersion": "1.4.28",
-  "_phantomChildren": {
-    "coffee-script": "1.7.1",
-    "coffeescript-module": "0.2.1",
-    "iconv-lite": "0.4.19",
-    "jspack": "0.0.4",
-    "parse-engine-data": "0.1.2",
-    "rsvp": "3.0.21"
-  },
-  "_requested": {
-    "raw": "psd2png@^0.1.0",
-    "scope": null,
-    "escapedName": "psd2png",
-    "name": "psd2png",
-    "rawSpec": "^0.1.0",
-    "spec": ">=0.1.0 <0.2.0",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/psd2png/-/psd2png-0.1.0.tgz",
-  "_shasum": "00e35d3cf135e5bf918b8a134b66ebb08a322a52",
-  "_shrinkwrap": null,
-  "_spec": "psd2png@^0.1.0",
-  "_where": "C:\\Users\\leonardor\\Desktop\\thumb - Copia",
   "author": {
     "name": "qdsang",
     "email": "qdsang@gmail.com"
@@ -72,7 +23,6 @@
   "engines": {
     "node": ">=0.8.0"
   },
-  "gitHead": "4ce445c5bfa1aef3b69b0459d749977727543ad4",
   "homepage": "https://github.com/qdsang/psd2png",
   "keywords": [
     "png",
@@ -89,11 +39,10 @@
   ],
   "name": "psd2png",
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qdsang/psd2png.git"
   },
   "scripts": {},
-  "version": "0.1.0"
+  "version": "1.1.0"
 }

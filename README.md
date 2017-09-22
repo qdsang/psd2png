@@ -1,4 +1,4 @@
-psd2pngl
+psd2png
 ==================
 
 Image convertor, PSD to PNG, for node.js
@@ -6,11 +6,11 @@ Image convertor, PSD to PNG, for node.js
 
 ## usage
 
-    $ npm install psd2pngl --save
+    $ npm install psd2png --save
 
 ```javascript
 
-var psd2png = require('psd2pngl')
+var psd2png = require('psd2png')
   , fs = require('fs')
 ;
 
